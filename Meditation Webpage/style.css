@@ -1,0 +1,75 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 15px;
+    letter-spacing: 0.7px;
+    word-spacing: 2px;
+    background-color: lightpink;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
+
+header {
+    background-color:palegreen;
+    padding: 3px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header h1 img {
+
+    float: left;   
+    margin-left: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    clear: both;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 15px 45px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Main Styles */
+
+ main .text {
+
+    text-indent: 100px;
+    line-height: 1.8;
+
+ } 
+
+/* Footer Styles */
+
+footer {
+    background-color:palegreen;
+    padding: 70px;
+    text-align:center;
+    font-size: medium;
+    font-weight: bold;
+}
