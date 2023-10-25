@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+   <style>
+
+     * {
+    padding: 0;
+    margin: 0;
+   
+}
+    
+    .header {
+        background-color: #ADADAD;
+        padding: 25px 0px;
+        text-align: center;
+
+    }
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+
+	.background {
+		background:#379683;
+		background-blend-mode: darken;
+		background-size: cover;
+	}
+
+	.nav-list {
+		width: 70%;
+		display: flex;
+		align-items: center;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: left;
+		align-items: left;
+	}
+
+	.logo img {
+		width:75px;
+		border-radius: 50px;
+	}
+ 
+    .nav-list li {
+		list-style: none;
+		padding:  15px 15px;
+	} 
+
+	.nav-list li a {
+		text-decoration: none;
+		color: white;
+        font-size: 1.2rem;
+	}
+
+	.nav-list li a:hover {
+		color: #4bbda6;
+	}
+
+	.rightnav {
+		width: 30%;
+		text-align: right;
+    }
+
+	#search {
+		padding: 2px;
+		font-size: 17px;
+		border: 2px solid grey;
+		border-radius: 9px;
+    
+    } 
+    .btn {
+		padding: 8px 20px;
+		margin: 7px 0;
+		border: 2px solid black;
+		border-radius: 8px;
+		background: none;
+		color: black;
+		cursor: pointer;
+    
+
+	}
+
+   
+ .btn-sm {
+		padding: 6px 10px;
+		vertical-align: middle;
+        color: antiquewhite;
+	} 
+
+  section {
+    display: flex;
+    height: 300vh;
+    justify-content: center;
+    align-items: center;
+  
+ }
+ 
+ form {
+    background-color: whitesmoke;
+    padding: 50px 150px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-bottom: 700px;
+    
+
+ }
+
+ form input {
+    width:  100%;
+    height: 30px;
+    margin: 15px 0;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+} 
+
+#send {
+        width: 50%;
+        border: 2px solid black;
+		border-radius: 8px;
+
+ }
+
+  
+
+.text-footer {
+		text-align: center;
+		padding: 10px 0;
+		font-family: 'Ubuntu', sans-serif;
+		display: flex;
+		justify-content: center;
+		color: white;
+	}
+
+	section {
+        background-color: #7395AE;
+    }
+
+   
+</style>
+</head>
+<body>
+     <header class="header">
+
+        <h1>SUBASH AGRO FARMS</h1>
+    
+    </header>
+         
+     
+            <nav class="navbar background">
+                <ul class="nav-list">
+                    <div class="logo">
+                        <img src="/262-2626214_tree-logos-of-coconut-tree.png">
+                    </div>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+    
+                </ul>
+        
+                <div class="rightNav">
+                    <input type="text" name="search" id="search">
+                 
+                    <button class="btn btn-sm">Search</button>
+                </div>
+            </nav> 
+
+   <section>
+             <form method="post" action="mailto:sivasubash66@gmail.com">
+
+                <h1>Registration</h1>
+                
+         <br>
+                 <label for="name">Name:</label><br>
+                 <input type="text" id="name" name="name" placeholder="Enter your name" required maxlength="10"><br>
+                 
+                
+                 <label for="email">E-mail:</label><br>
+                 <input type="email" id="email" name="email" placeholder="you@mail.com"  required><br>
+                 
+            
+                 
+                   <label for="msg">Message:</label><br>
+                 <input type="text" id="msg" name="message" placeholder="Some of your message" ><br>
+                 
+            
+                
+                 <label for="user">Username:</label><br>
+                 <input type="text" id="user"  name="username"  placeholder="Enter username" ><br>
+                  
+                
+                
+                 <label for="pass">Password:</label><br>
+                 <input type="password" id="pass" placeholder="Enter your pass" maxlength="8"><br>
+                 
+                  
+                
+                 
+                 <label for="cont">Contact:</label><br>
+                 <input type="number" id="cont" pattern="[0,9]" maxlength="10"><br>
+                 
+      <br><br>
+            
+             <input type="Submit" value="SUBMIT" id="send">
+               
+        <br>
+			  <button class="btn">
+                <a style="text-decoration: none; color: black;" href="index.html">BACK</a>
+               </button>
+           
+               </form>
+               </section>
+
+          
+        
+
+         <footer class="background">
+            <p class="text-footer">
+                Copyright ©-All rights are reserved
+            </p>
+
+    
+</body>
+</html>
