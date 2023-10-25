@@ -1,0 +1,12 @@
+C:\Boss\BankTransactions.Data\bin\Debug\net6.0\BankTransactions.Data.deps.json
+C:\Boss\BankTransactions.Data\bin\Debug\net6.0\BankTransactions.Data.dll
+C:\Boss\BankTransactions.Data\bin\Debug\net6.0\BankTransactions.Data.pdb
+C:\Boss\BankTransactions.Data\obj\Debug\net6.0\BankTransactions.Data.csproj.AssemblyReference.cache
+C:\Boss\BankTransactions.Data\obj\Debug\net6.0\BankTransactions.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Boss\BankTransactions.Data\obj\Debug\net6.0\BankTransactions.Data.AssemblyInfoInputs.cache
+C:\Boss\BankTransactions.Data\obj\Debug\net6.0\BankTransactions.Data.AssemblyInfo.cs
+C:\Boss\BankTransactions.Data\obj\Debug\net6.0\BankTransactions.Data.csproj.CoreCompileInputs.cache
+C:\Boss\BankTransactions.Data\obj\Debug\net6.0\BankTransactions.Data.dll
+C:\Boss\BankTransactions.Data\obj\Debug\net6.0\refint\BankTransactions.Data.dll
+C:\Boss\BankTransactions.Data\obj\Debug\net6.0\BankTransactions.Data.pdb
+C:\Boss\BankTransactions.Data\obj\Debug\net6.0\ref\BankTransactions.Data.dll

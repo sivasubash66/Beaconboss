@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BankTransactions.Model/1.0.0": {
+        "runtime": {
+          "BankTransactions.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankTransactions.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
